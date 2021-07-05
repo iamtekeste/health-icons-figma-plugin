@@ -3,6 +3,8 @@
 Figma plugin that makes it super easy to find and insert free to use [health icons](https://www.figma.com/community/plugin/992844281461869440/Health-Icons-Figma-Plugin) to your figma files.
 
 Get it here 👉️ https://www.figma.com/community/plugin/992844281461869440/Health-Icons-Figma-Plugin
+![cover image](https://user-images.githubusercontent.com/1515815/124506057-e021a180-dd98-11eb-8bd2-76713ad216e2.png)
+
 
 ## Development guide
 

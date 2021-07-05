@@ -1,0 +1,24 @@
+.iconList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 8px;
+  padding: 4px;
+  padding-bottom: 16px;
+}
+.icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.icon:hover {
+  transition: ease-in-out 0.2s;
+  transform: scale(1.2);
+}
+.filterContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filterContainer > div > div:nth-child(1) {
+  flex-grow: 1;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "health-icons-figma-plugin",
+  "version": "1.0.0",
+  "keywords": [
+    "create-figma-plugin",
+    "figma",
+    "figma-plugin"
+  ],
+  "license": "MIT",
+  "author": "Tekeste Kidanu",
+  "dependencies": {
+    "@create-figma-plugin/ui": "^1.2.0",
+    "@create-figma-plugin/utilities": "^1.2.0",
+    "fuse.js": "^6.4.6",
+    "preact": "^10.5.13",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "@create-figma-plugin/build": "^1.2.0",
+    "@create-figma-plugin/tsconfig": "^1.2.0",
+    "@figma/plugin-typings": "^1",
+    "@types/ramda": "^0.27.41",
+    "typescript": "^4"
+  },
+  "scripts": {
+    "build": "build-figma-plugin --typecheck --minify",
+    "watch": "build-figma-plugin --typecheck --watch"
+  },
+  "figma-plugin": {
+    "id": "health-icons-figma-plugin",
+    "name": "Health Icons Figma Plugin",
+    "main": "src/main.ts",
+    "ui": "src/ui.tsx",
+    "relaunchButtons": {
+      "healthIcons": {
+        "name": "Health Icons",
+        "main": "src/main.ts",
+        "ui": "src/ui.tsx"
+      }
+    }
+  }
+}
